@@ -1,0 +1,63 @@
+$titular:#86630b;
+$texto:#44150d;
+$oscuro:#780303;
+$letra_clara:#ffea00;
+$back:#f1e5c6;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: $back;
+    font-family: arial;
+}
+header{
+    h1{
+        color:$titular;
+        text-align: center;
+    }
+    div{
+        text-align: center;
+    }
+    nav{
+        .menu{
+            background:$oscuro;
+            list-style-type: none;
+            margin: 20px auto;
+            display: flex;
+            justify-content: flex-end; 
+            li{
+                text-align: center;
+                a{
+                    color: $letra_clara;
+                    text-decoration: none;
+                    display: inline-block;
+                    padding: 20px;
+                    &:hover{
+                        background-color: $letra_clara;
+                        color:$oscuro;
+                    }
+                }
+
+        }
+
+    }
+}
+}
+main{
+    p{
+        color:$texto;
+        padding:20px;
+        line-height: 1.5;
+
+    }
+    div{
+        text-align: center;
+    }
+}
+footer{
+    padding: 20px;;
+    background-color: $oscuro;
+    color:$letra_clara;
+    text-align: center;
+}
