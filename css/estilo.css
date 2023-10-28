@@ -9,7 +9,7 @@ body {
 }
 
 header h1 {
-  color: #86630b;
+  color: #0b8611;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ header div {
 }
 
 header nav .menu {
-  background: #780303;
+  background: #0f0378;
   list-style-type: none;
   margin: 20px auto;
   display: -webkit-box;
